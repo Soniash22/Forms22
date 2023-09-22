@@ -1,0 +1,53 @@
+.contact {
+height: 679px;
+background-color: $black-color;
+padding: 92px 0 0 0;
+
+&__title {
+    @include title($white-color,40px,-1px,uppercase)
+}
+&__input {
+width: 455px;
+height: 50px;
+outline: none;
+border: 1px solid $border-color;
+@include title($input-text,14px,-0.35px,uppercase);
+text-align: left;
+padding: 12px 20px 21px 20px;
+}
+&__form {
+    &--wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        
+    }  
+    padding: 116px 0 0 0;
+    }
+    &__message {
+        resize: none;
+        width: 458px;
+height: 212px;
+outline: none;
+@include title($input-text,14px,-0.35px,uppercase);
+text-align: left;
+line-height: normal;
+padding: 14px 0 0 22px;
+}
+&__box {
+    display: flex;
+    justify-content: space-between;
+}
+&__btn {
+    width: 242px;
+    background: #FED136;
+    @include title($white-color, 18px,normal,uppercase);
+    border: none;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 27px auto;
+    margin-bottom: 0;
+}
+}

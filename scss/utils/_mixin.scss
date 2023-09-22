@@ -1,0 +1,11 @@
+@mixin title($color,$size,$letter-spacing,$transform) {
+    color: $color;
+text-align: center;
+font-family: Montserrat;
+font-size: $size;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; /* 187.5% */
+letter-spacing: $letter-spacing;
+text-transform: $transform;margin: 0;
+} 
